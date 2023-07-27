@@ -1,0 +1,85 @@
+*{
+      margin: 0px;
+      padding: 0px;
+      box-sizing: border-box;
+}
+body{
+      background: url(wallpaperflare.com_wallpaper\ \(5\).jpg);
+      background-size: contain;
+      background-repeat: no-repeat;
+      height: 100vp;
+      width: 100vp;
+      overflow: auto;
+}
+.top{
+      color: aqua;
+}
+/* header{
+      padding: 12px;
+      background-color: rgb(23, 70, 109);
+      overflow: auto;
+      
+} */
+
+.left:hover{
+      background-color: rgb(34, 163, 227);
+}
+.right:hover{
+      background-color: rgb(34, 163, 227);
+}
+
+.left{
+      position: absolute;
+      display: inline-block;
+      left: 15px;
+      top: 15px;
+      color: black;
+      cursor: pointer;
+      border: 3px solid black;
+      left: 25px;
+      padding: 4px 10px;
+      border-radius: 10px;
+      background-color: aliceblue;
+}
+
+.mid{
+      
+      display: block;
+      width: 30%;
+      margin: 25px auto;
+      color: aliceblue;
+      font-family:cursive;
+      font-size: 29px;
+      /* top:20px; */
+      
+}
+ 
+
+.right{
+      position:absolute;
+      right:15px;
+      display: inline-block;
+      top: 18px;
+      color: black;
+      cursor: pointer;
+      border: 3px solid black;
+      padding: 4px 10px;
+      border-radius: 10px;
+      background-color: aliceblue;
+}
+.name{
+      color: azure;
+}
+.form{
+      display: flex;
+      justify-content: last baseline;
+      align-items: first baseline;
+      flex-direction: column;
+      gap: 5px;
+      left:25px;
+      margin-top: 350px;
+      background-image: none;
+}
+.gender{
+      color: white;
+}
